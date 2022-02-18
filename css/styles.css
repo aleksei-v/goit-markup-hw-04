@@ -111,7 +111,6 @@ img {
 /*=== start header ===*/
 .header {
   border-bottom: 1px solid #ececec;
-  margin-bottom: 7px;
 }
 .header-flex {
   display: flex;
@@ -164,8 +163,15 @@ img {
 .hero {
   padding-top: 240px;
   padding-bottom: 200px;
+  width: 1600px;
+  height: 600px;
+  margin: 0 auto;
 
   background-color: var(--background-color);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/backimg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 
   text-align: center;
 }
