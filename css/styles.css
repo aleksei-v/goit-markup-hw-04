@@ -82,10 +82,15 @@ img {
 }
 .bottom,
 .contacts-item .link {
-  font-weight: 400;
   line-height: 1.72;
   letter-spacing: 0.02em;
   color: var(--major-text-color);
+}
+.contacts-item .link {
+  font-weight: 500;
+}
+.bottom {
+  font-weight: 400;
 }
 .bottom-contacts-item .link:hover,
 .bottom-contacts-item .link:focus,
@@ -174,7 +179,7 @@ img {
 
 /*=== start hero ===*/
 .hero {
-  padding-top: 240px;
+  padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
   height: 600px;
@@ -343,8 +348,8 @@ img {
 .social-list-link:focus {
   background-color: var(--accent-color);
 }
-.social-list-item:hover .social-list-icon,
-.social-list-item:focus .social-list-icon {
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
   fill: var(--major-color-light);
 }
 
@@ -370,13 +375,13 @@ img {
 .clients-list-icon {
   fill: #afb1b8;
 }
-.clients-list-item:hover .clients-list-icon,
-.clients-list-item:focus .clients-list-icon {
+.clients-list-link:hover .clients-list-icon,
+.clients-list-link:focus .clients-list-icon {
   fill: var(--accent-color);
 }
-.clients-list-item:hover,
-.clients-list-item:focus {
-  border: 1px solid #2196f3;
+.clients-list-link:hover,
+.clients-list-link:focus {
+  border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
 /*=== end clients ===*/
